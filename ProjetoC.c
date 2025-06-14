@@ -7,10 +7,12 @@
 int cont_id_tarefa = 0, cont_vet_tar = 0;
 char user_operacao,  final;
 
+// limpar tela 
 void limpar_tela() {
     for (int i = 0; i < 50; i++) printf("\n");
 }
 
+//pausa para final de operacoes 
 void pausa() {
     printf("Pressione Enter para continuar...\n");
     getchar();
